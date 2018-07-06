@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_matsyasana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.matsyasana">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/matsyasana"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="300dp"
+                android:text="1.	Lie flat on your back, making sure your legs are together, and your hands are placed comfortably beside your body.
+\n\n2.	Place your palms under your hips such that the palms are facing the ground. Now, bring the elbows closer to each other, placing them close to your waist.
+\n\n3.	Cross your legs such that your feet cross each other at your middle, and your thighs and knees are placed flat on the floor.
+\n\n4.	Breathe in and lift your chest up such that your head is also lifted, and your crown touches the floor.
+\n\n5.	Make sure the weight of your body is on your elbows and not on your head. As your chest is lifted, lightly pressurize your shoulder blades.
+\n\n6.	Hold the position only until you are comfortable. Breathe normally.
+\n\n7.	Exhale and release the position, lifting your head first, and then dropping your chest to the ground. Untangle your legs and relax.
+"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginTop="1000dp"
+                android:src="@drawable/matsyasana2"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

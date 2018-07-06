@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sirsasana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.sirsasana">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/sirsasana"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="290dp"
+                android:text="1.Sit in Vajrasana or the kneeling pose.
+\n\n2.Bend forward and place the hands on the floor with fingers intertwined. The hands and elbows should rest on the floor and make a triangle."/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sir1"
+                android:layout_marginTop="470dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:layout_marginTop="720dp"
+                android:textSize="20dp"
+                android:text="3.Slowly and carefully place the top of the head on the intertwined fingers. Hold it firmly so that the head does not slip when the asana is performed.\n\n4.Move forward and lift your buttocks up so that the thighs are perpendicular to the ground."/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sir2"
+                android:layout_marginTop="925dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:layout_marginTop="1210dp"
+                android:textSize="20dp"
+                android:text="5.Now move the knees slightly inwards towards the abdomen. Apply pressure on the hands and try to lift the trunk and legs few inches above the ground. Hold your breath to lift yourself off the ground. If you are able to do this, then move on to the next stage."
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sir3"
+                android:layout_marginTop="1400dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:layout_marginTop="1710dp"
+                android:textSize="20dp"
+                android:text="6.Lift the trunk up further till it is perpendicular to the ground. The entire weight is supported by the hand and to some extend the head. The thighs and legs at this stage is not vertical yet. It is hanging in an intermediate position in front of the trunk."/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="270dp"
+                android:src="@drawable/sir4"
+                android:layout_marginTop="1900dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:layout_marginTop="2200dp"
+                android:textSize="20dp"
+                android:text="7.Now lift and slowly move the legs from the front of the body to the back. The legs will be hanging freely at the back. Once you have achieved this, you have a fairly good sense of balance. At this point, one may breathe normally. You are almost there and ready to move on to the next and final stage."/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="270dp"
+                android:src="@drawable/sir5"
+                android:layout_marginTop="2450dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="2700dp"
+                android:text="\n\n8.Lift your legs up and make it aligned along with the rest of the body. The whole body will be perfectly vertical at this stage. The body weight now rest entirely on the hands and partly the head. This is the final position. You will feel the increased flow of blood in the head and the eyes. During initial stages, the eyes may even turn red because of the blood accumulated in the eyes. This is normal and there is no need to worry."/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="270dp"
+                android:src="@drawable/sirsasana"
+                android:layout_marginTop="3060dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:layout_marginTop="3325dp"
+                android:text="\n9.Try to maintain this position for as long as it is comfortable. Breathe normally in the final position and keep your awareness in the head region and on the breathing.\n\n
+10.For releasing the pose, you have to do reverse the action done in each stage. First you have to bend the knees and lower the thighs bringing the thighs close to the body. Then slowly drop the legs so that the toes touch the ground. Release the hand position and sit back in the kneeling position.\n\n
+11.After Sirsasana is performed, one has to rest in Shavasana (the Corpse pose) for few minutes to let the body redistribute the blood. "/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pose4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.pose4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/s4"
+                android:scaleType="fitXY"
+                android:id="@+id/p4"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Click on image for next"
+                android:textAlignment="center"
+                android:id="@+id/next4"
+                android:layout_marginTop="290dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="320dp"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text=" 1.Take the left leg as far back as possible. In the process, bend the right knee without changing its position.\n\n 3. Inhale while stretching the left leg backwards.
+\n\n 3.Keep the hands straight with fingers touching the floor. \n\n4.Arch the back and tilt the head slightly backward. Look straight ahead."/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

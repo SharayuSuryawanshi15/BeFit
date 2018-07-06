@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pose10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.pose10">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/s10"
+                android:scaleType="fitXY"
+                android:id="@+id/p10"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Click on above image for next"
+                android:layout_marginTop="280dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="310dp"
+                android:text="1.Stand erect and bend the body forward.
+\n\n2.Let the arms touch the floor. If it is difficult take the arms only as far as it is possible without straining. \n\n3.Exhale as you bend forward.
+Bring the trunk closer to the legs.\n\n4. Try to touch the knees with the forehead. This may require lot of flexibility. \n\n5.In the initial stages, take it only as far as it is comfortable."/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

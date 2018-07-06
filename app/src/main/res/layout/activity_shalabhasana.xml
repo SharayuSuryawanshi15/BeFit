@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shalabhasana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.shalabhasana">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="!!!!Those with severe back problems should take up this asana slowly!!!!"
+                android:textColor="#e71616"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/shalabhasana"
+                android:layout_marginTop="45dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:text="1.Lie on your stomach with the chin stretched and touching the ground. Keep the hands on the side.
+\n\n2.	Slowly bring your hands under the legs to support them.
+\n\n3.	Inhale slowly and deeply and lift your right leg upwards, without bending the knees, as much as you can and without straining. Maintain this position for few seconds, maximum up to half a minute.
+\n\n4.	Slowly release the position by bringing down the right leg back to the original position. Exhale during this process.
+\n\n5.	Rest for few seconds and breathe normally and deeply.
+\n\n6.	Now, try the above steps with your left leg lifted above the ground.
+\n\n7.	This process can be done a few times alternating between the right leg and the left leg.
+"
+                android:layout_marginTop="325dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

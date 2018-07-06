@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dhanurasana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.dhanurasana">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/dhanurasana"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="300dp"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:text="1.Lie flat on your stomach, keeping your feet hip-width apart and your arms beside your body.
+\n\n2.	Now, gently fold your knees and hold your ankles.
+\n\n3.	Inhale, and lift your chest and legs off the ground. Pull your legs back.
+\n\n4.	Look straight and keep your face stress-free. A smile should help.
+\n\n5.	Hold the pose as you concentrate on breathing. Your body should be as taut as a bow.
+\n\n6.	As you get comfortable in the pose, breathe long and deep.
+\n\n7.	About 15-20 seconds later, exhale and release the pose.
+"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

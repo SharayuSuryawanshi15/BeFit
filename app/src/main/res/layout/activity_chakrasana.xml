@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chakrasana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.chakrasana">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#e71616"
+                android:text="!!!!Chakrasana should be avoided by those suffering from cardiac ailments, high blood pressure, vertigo and those who have undergone recent surgeries.!!!!"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/chakrasana"
+                android:layout_marginTop="60dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="350dp"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:text="1.	Lie flat on your back on the floor. You may bend your knees so that the soles of your feet are on the floor and closer to your buttocks. Make sure that your feet are hip-width apart.
+\n\n2.	Your hands must be placed behind your shoulders, ensuring your fingers are opened up and pointed towards your shoulders.
+\n\n3.	Once you feel comfortable in this stance, balance your weight on your limbs. Then, press your feet and palms, and lift your entire body off the mat. Let your head hang gently. Your neck should be long.
+\n\n4.	Make sure you breathe comfortably. Take slow, deep breaths.
+\n\n5.	Hold the pose for a minute, or as long as you are comfortable. Then, release by bending your arms and legs, and gently lowering your back on the ground. Lie down in Shavasana for a few minutes before you resume normal activity or continue with your workout
+"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

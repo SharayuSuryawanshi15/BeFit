@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_advanceplan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.befit.advanceplan"
+    android:background="@drawable/wallp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scroll at the end of the page for information about exercises."
+                android:textSize="12dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Day 17\n
+
+Squats\t\t\t\t\t\t\t\t\t\t\t20\n
+Plank \t\t\t\t\t\t\t\t\t\t\t\t10\n
+Push Ups\t\t\t\t\t\t\t\t\t\t3\n
+Cross Crunches\t\t\t\t\t\t\t3\n
+Burpees\t\t\t\t\t\t\t\t\t\t\t5
+"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Day 18\n
+
+Squats\t\t\t\t\t\t\t\t\t\t\t20\n
+Plank \t\t\t\t\t\t\t\t\t\t\t\t12\n
+Push Ups\t\t\t\t\t\t\t\t\t\t6\n
+Cross Crunches\t\t\t\t\t\t\t3\n
+Burpees\t\t\t\t\t\t\t\t\t\t\t5
+"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Day 19\n
+
+Squats\t\t\t\t\t\t\t\t\t\t\t22\n
+Plank \t\t\t\t\t\t\t\t\t\t\t\t14\n
+Push Ups\t\t\t\t\t\t\t\t\t\t9\n
+Cross Crunches\t\t\t\t\t\t\t3\n
+Burpees\t\t\t\t\t\t\t\t\t\t\t5
+"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 20\n\nRest"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="#ffffff"
+                android:textColor="#000"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Day 21\n
+
+Squats\t\t\t\t\t\t\t\t\t\t\t22\n
+Plank \t\t\t\t\t\t\t\t\t\t\t\t16\n
+Push Ups\t\t\t\t\t\t\t\t\t\t12\n
+Cross Crunches\t\t\t\t\t\t\t6\n
+Burpees\t\t\t\t\t\t\t\t\t\t\t10
+"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Day 22\n
+
+Squats\t\t\t\t\t\t\t\t\t\t\t24\n
+Plank \t\t\t\t\t\t\t\t\t\t\t\t18\n
+Push Ups\t\t\t\t\t\t\t\t\t\t15\n
+Cross Crunches\t\t\t\t\t\t\t6\n
+Burpees\t\t\t\t\t\t\t\t\t\t\t10
+"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Day 23\n
+
+Squats\t\t\t\t\t\t\t\t\t\t\t24\n
+Plank \t\t\t\t\t\t\t\t\t\t\t\t20\n
+Push Ups\t\t\t\t\t\t\t\t\t\t18\n
+Cross Crunches\t\t\t\t\t\t\t6\n
+Burpees\t\t\t\t\t\t\t\t\t\t\t10
+"/>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 24\n\nRest"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Day 25\n
+
+Squats\t\t\t\t\t\t\t\t\t\t\t22\n
+Plank \t\t\t\t\t\t\t\t\t\t\t\t16\n
+Push Ups\t\t\t\t\t\t\t\t\t\t21\n
+Cross Crunches\t\t\t\t\t\t\t6\n
+Burpees\t\t\t\t\t\t\t\t\t\t\t10
+"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Day 26\n
+
+Squats\t\t\t\t\t\t\t\t\t\t\t26\n
+Plank \t\t\t\t\t\t\t\t\t\t\t\t24\n
+Push Ups\t\t\t\t\t\t\t\t\t\t24\n
+Cross Crunches\t\t\t\t\t\t\t9\n
+Burpees\t\t\t\t\t\t\t\t\t\t\t15
+"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Day 27\n
+
+Squats\t\t\t\t\t\t\t\t\t\t\t28\n
+Plank \t\t\t\t\t\t\t\t\t\t\t\t26\n
+Push Ups\t\t\t\t\t\t\t\t\t\t27\n
+Cross Crunches\t\t\t\t\t\t\t9\n
+Burpees\t\t\t\t\t\t\t\t\t\t\t15
+"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 28\n\nRest"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Day 29\n
+
+Squats\t\t\t\t\t\t\t\t\t\t\t28\n
+Plank \t\t\t\t\t\t\t\t\t\t\t\t27\n
+Push Ups\t\t\t\t\t\t\t\t\t\t39\n
+Cross Crunches\t\t\t\t\t\t\t12\n
+Burpees\t\t\t\t\t\t\t\t\t\t\t20
+"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Day 30\n
+
+Squats\t\t\t\t\t\t\t\t\t\t\t30\n
+Plank \t\t\t\t\t\t\t\t\t\t\t\t30\n
+Push Ups\t\t\t\t\t\t\t\t\t\t33\n
+Cross Crunches\t\t\t\t\t\t\t12\n
+Burpees\t\t\t\t\t\t\t\t\t\t\t20
+"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="italic"
+                android:text="Exercise Section"
+                android:id="@+id/advex"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

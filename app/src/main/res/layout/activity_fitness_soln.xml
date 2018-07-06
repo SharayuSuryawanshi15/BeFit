@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fitness_soln"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.FitnessSoln"
+    android:background="@drawable/fitnessbackground">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Body Problems"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:id="@+id/bodyp"
+
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/stressr"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stress Relief"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:id="@+id/stressr"
+
+        android:layout_marginBottom="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

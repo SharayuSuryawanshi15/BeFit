@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_real__plan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.befit.Real_Plan"
+    android:background="@drawable/wallp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scroll at the end of the page for information about exercises."
+                android:textSize="12dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day 1\nJumping  Jacks\t\t\t\t20\nSit Ups\t\t\t\t\t\t\t\t\t\t\t\t10\nLeg Raises\t\t\t\t\t\t\t\t\t10"
+                android:textSize="20dp"
+
+                android:textColor="#000"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day 2\nJumping  Jacks\t\t\t\t20\nSit Ups\t\t\t\t\t\t\t\t\t\t\t\t12\nLeg Raises\t\t\t\t\t\t\t\t\t10"
+                android:textSize="20dp"
+
+                android:textColor="#000"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day 3\nJumping  Jacks\t\t\t\t20\nSit Ups\t\t\t\t\t\t\t\t\t\t\t\t14\nLeg Raises\t\t\t\t\t\t\t\t\t13"
+                android:textSize="20dp"
+
+                android:textColor="#000"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 4\n\nRest"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:background="#ffffff"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day 5\nJumping  Jacks\t\t\t\t25\nSit Ups\t\t\t\t\t\t\t\t\t\t\t\t16\nLeg Raises\t\t\t\t\t\t\t\t\t13"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day 6\nJumping  Jacks\t\t\t\t25\nSit Ups\t\t\t\t\t\t\t\t\t\t\t\t18\nLeg Raises\t\t\t\t\t\t\t\t\t13"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day 7\nJumping  Jacks\t\t\t\t25\nSit Ups\t\t\t\t\t\t\t\t\t\t\t\t20\nLeg Raises\t\t\t\t\t\t\t\t\t16"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Day 8\n\n Rest"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:textColor="#000"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day 9\nJumping  Jacks\t\t\t\t25\nSit Ups\t\t\t\t\t\t\t\t\t\t\t\t22\nLeg Raises\t\t\t\t\t\t\t\t\t16"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day 10\nJumping  Jacks\t\t\t\t25\nSit Ups\t\t\t\t\t\t\t\t\t\t\t\t24\nLeg Raises\t\t\t\t\t\t\t\t\t19"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day 11\nJumping  Jacks\t\t\t\t25\nSit Ups\t\t\t\t\t\t\t\t\t\t\t\t24\nLeg Raises\t\t\t\t\t\t\t\t\t19"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 12\n\n Rest"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:textColor="#000"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day 13\nJumping  Jacks\t\t\t\t30\nSit Ups\t\t\t\t\t\t\t\t\t\t\t\t26\nLeg Raises\t\t\t\t\t\t\t\t\t22"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day 14\nJumping  Jacks\t\t\t\t30\nSit Ups\t\t\t\t\t\t\t\t\t\t\t\t28\nLeg Raises\t\t\t\t\t\t\t\t\t22"
+
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day 15\nJumping  Jacks\t\t\t\t30\nSit Ups\t\t\t\t\t\t\t\t\t\t\t\t30\nLeg Raises\t\t\t\t\t\t\t\t\t25"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 16\n\nRest"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exercise Section"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:id="@+id/basicex"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT 15 DAYS PLAN"
+                android:textStyle="italic"
+                android:textSize="20dp"
+                android:id="@+id/advplan"
+                />
+
+
+      </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

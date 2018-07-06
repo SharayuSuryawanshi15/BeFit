@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_advanceexinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.befit.advanceexinfo"
+    android:background="@drawable/wallp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Squats"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/squats"
+
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Step1:  Stand with your feet apart, directly under your hips, and place your hands on your hips.
+\n\nStep2:  Standing up tall, put your shoulders back, lift your chest, and pull in your abdominal muscles.
+\n\nStep3:  Bend your knees while keeping your upper body as straight as possible, as if you were lowering yourself onto a seat behind you. Lower yourself as far as you can without leaning your upper body more than a few inches forward.
+\n\nStep4:  Being careful not to lock your knees when you reach a standing position, straighten your legs.
+"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Push-Ups"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/pushups"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Step1:  Begin on your hands and knees with your hands underneath your shoulders but slightly wider than your shoulders.
+\n\nStep2:  Come onto the balls of your feet and the heels of your hands, and then walk the feet back until you're in the plank position. Keep your hips lifted to avoid the lower back bowing so the belly sags towards the ground.
+\n\nStep3:  Begin to bend your elbows, lowering your body in one solid piece down towards the floor. Your elbows will bend out to the side, not behind you. Keep your abdominal and leg muscles engaged throughout the entire movement. Your head should stay in line with your spine; not droop.
+\n\nStep4:  Lower yourself down until your chest is about an inch or two from the ground and then slowly push yourself back up to the starting position. Push through the heels of your hands in order to return to the starting position.
+
+"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Plank"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/plank"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Step1:  Get down on all fours as you would do a pushup. Keep your palms flat and hands directly under your shoulders slightly wider the shoulder-width apart.
+\n\nStep2:  Your body should form a straight line from your head to your ankle. Contract your abs to prevent your butt from sticking or dipping.  With your abs pulling in toward your spine, hold for 30-60 seconds.
+"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.Cross Crunches"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/crosscycling"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="1.Lie on the floor. Stretch your legs out straight and hold your arms
+outstretched at your sides. It's important to use the right form when
+you're doing the bicycle crunch - if you don't you won't be getting the
+maximum benefits from this exercise.\n\n2.Place your hands behind your head. You can interlock your fingers
+if you desire. If you prefer, you can keep your arms at your sides.\n\n3.
+Raise your legs. Raise them so that your thighs are perpendicular to
+the ground, and your calves are parallel to the ground. Keep your feet
+together. This is called tabletop position.\n\n4.Touch your right elbow to your left knee. Now lift your head up and
+touch your right elbow to the left knee while pulling your knee up
+
+towards your head. At the same time, straighten your right leg,
+keeping it several inches off of the floor - similar to the motion you'd
+make while pedaling a bicycle.\n* As you lift your head, tense your abs. Use your abdominal muscles to
+crunch your body forward so that your elbow can reach your knee.\n* At the same time, tense your leg muscles and be sure to keep them
+bent or straightened correctly. Don't rest your feet on the ground.\n* Be sure to keep your elbows back, rather than bringing them forward
+toward your chest, which could strain your neck.\n* To increase the difficulty, try keeping your shins parallel to the ground
+throughout the exercise.\n\n5.
+Now touch your left elbow to your right knee. At the same time,
+straighten your left leg, keeping it off of the floor. Don't forget to tighten
+those abs. You've now completed one bicycle crunch.\n\n6.Repeat. Perform bicycle crunches in sets of 10-20 repetitions. Instead
+of counting crunches, you can also time yourself for sets lasting
+between 20 and 60 seconds. Rest between sets."
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.Burpees"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/burpees"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Step1:Stand with your feet shoulder-width apart, weight in your heels, and your arms at your sides.
+\n\nStep2:  Push your hips back, bend your knees, and lower your body into a squat.
+\n\nStep3:  Place your hands on the floor directly in front of, and just inside, your feet. Shift your weight onto them.
+\n\nStep4:  Jump your feet back to softly land on the balls of your feet in a plank position. Your body should form a straight line from your head to heels. Be careful not to let your back sag or you butt stick up in the air, as both can keep you from effectively working your core.
+\n\nStep5:  Jump your feet back so that they land just outside of your hands.
+\n\nStep6: 	Reach your arms over head and explosively jump up into the air.
+\n\nStep7:  Land and immediately lower back into a squat for your next re
+
+"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

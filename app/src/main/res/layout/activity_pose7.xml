@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pose7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.pose7">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/wallp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:layout_width="match_parent"
+                            android:layout_height="270dp"
+                            android:src="@drawable/s7"
+                            android:scaleType="fitXY"
+                            android:id="@+id/p7"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Click on above image for next"
+                            android:layout_marginTop="290dp"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#000"
+                            android:textSize="20dp"
+                            android:layout_marginTop="320dp"
+                            android:text="1.Lie down on your stomach with hands on the side, toes touching together.
+\n\n2.Bring your hands to the front at the shoulder level, with palms resting on the floor.\n\n3.
+Slowly raise your trunk and head with the support of the palms alone. \n\n4.The arms should be bent at the elbows.
+Arch your neck slightly backwards, so that the pose looks like a cobra with raised hood.
+\n\n5.Breathe normally and feel the stomach press against the floor.
+Hold the asanas for few seconds in the beginning stages. One may go up to 2 minutes as one progresses.
+\n\n6.You can release the pose by bringing the hands back to the sides and resting your head on the forehead. Then, place the hands under your head like a pillow. Bend and rest your head on one side and breathe normally."/>
+
+                </RelativeLayout>
+        </ScrollView>
+</RelativeLayout>

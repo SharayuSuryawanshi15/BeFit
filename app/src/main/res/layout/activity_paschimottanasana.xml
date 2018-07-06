@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_paschimottanasana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.paschimottanasana">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/paschimottanasana1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="1.	Sit erect, with your legs, stretched out in front of you. Make sure that your toes are flexed towards you.
+\n\n2.	Inhale and raise your arms over your head. Stretch.
+\n\n3.	Exhale and bend forward. Feel the fold from your hip joints. Your chin should move towards your toes.
+\n\n4.	Stretch out your arms, and let them reach the furthest they can, possibly till your toes. But make sure that you don’t stretch too far.
+\n\n5.	Inhale. Then, lifting your head slightly, elongate your spine.
+\n\n6.	Exhale and move your navel towards your knees.
+\n\n7.	Repeat this a few times. Then, place your head on your legs, and hold the pose.
+\n\n8.	Inhale and come up back to the sitting position with your arms stretched out.
+\n\n9.	Exhale and lower your arms.
+
+"
+            android:layout_marginTop="290dp"    />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/paschimottanasana"
+                android:layout_marginTop="1000dp"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_trikonasana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.trikonasana">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/trikonasana"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:layout_marginTop="295dp"
+                android:text="1.Stand upright and place your legs about three and a half to four feet apart.\n\n
+2. Make sure your right foot is placed outside at 90 degrees and the left foot is placed in at 15 degrees.\n\n
+3. Align the center of your right heel with the center of the arch of the left foot.\n\n
+4. You need to remember that your feet are pressing the ground, and the weight of your body is balanced equally on both feet.\n\n
+5. Take a deep breath, and as you exhale, bend your body to the right from below your hips, ensuring your waist is straight. Lift your left hand up and let your right hand touch the ground. Both your arms should form a straight line.\n\n
+6. Depending on the level of comfort, rest your right hand on your shin, ankle, or outside the right foot on the floor. No matter where you place your hand, make sure you do not distort the sides of your waist. Quickly check on your left arm. It should be stretched out towards the ceiling and in line with the top of your shoulder. Let your head sit in a neutral position or turn it to the left, with your gaze set on your left palm.\n\n
+7. Your body should be bent sideways, and not backward or forward. Your chest and pelvis should be wide open.\n\n
+8. Stretch to the fullest, and focus on stabilizing your body. Take deep, long breaths. With every exhalation, try and relax your body more.\n\n
+9. Inhale and come up. Drop your arms to your side and straighten your feet.\n\n
+10. Repeat the same using the left leg.
+"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

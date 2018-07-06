@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pose6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.pose6">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/s6"
+                android:scaleType="fitXY"
+                android:id="@+id/p6"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Click on above image for next"
+                android:layout_marginTop="280dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="310dp"
+                android:text="1.Lower the body so that the body is parallel to the ground.\n\n2.
+Let the following parts touch the floor – The two feet, the two knees, the two palms, the chest and the chin.
+\n\n3.The hip and abdomen is slightly raised up.
+\n\n4.While performing this pose the breath is held outside and the breathing is stopped for few seconds."/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

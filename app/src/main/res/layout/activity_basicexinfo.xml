@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_basicexinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.befit.basicexinfo"
+    android:background="@drawable/wallp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Sit-Ups"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="270dp"
+          android:src="@drawable/situps"
+
+          />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Step1:  Get on your back with your legs bent.\n\nStep2:   Put your hands behind your head and slowly sit up with a half second pause when you get all the way up.\n\nStep3:  Then slowly go down and repeat this till you cant do it.
+
+"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Leg-Rise"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/legrise"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Step 1:  Lay down with your back flat on the floor, feet straight out and together and your hands on your side.\n\nStep 2:  While keep your legs as straight as you can lift your feet up in the air between 6-12 inches.\n\nStep3:  You can either hold for designated period of time or you can raise them up and then lower them right back down. This completes one repetition.
+
+"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Jumping Jacks"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/jumpingjacks"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Step1:  Starting position: Stand straight with your feet together, arms fully extended by your sides.
+\n\nStep2:  Slightly bend your knees and push through the balls of your feet and then straighten and push your knees to jump up by spreading your legs and hip wide apart.
+\n\nStep3:  While performing this raise your hands up and out smoothly until your hands meet above your head.
+\n\nStep4:  Final position: While returning on the ground, bring your feet together and your hands again to your sides.
+"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

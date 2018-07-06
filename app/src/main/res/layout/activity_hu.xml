@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.hu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/s2"
+                android:scaleType="fitXY"
+                android:id="@+id/hu"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="290dp"
+        android:id="@+id/next2"
+        android:textAlignment="center"
+        android:text="Click on the above image for next"
+
+
+        />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="330dp"
+                android:text="1.Breathing in, lift the arms up and back, keeping the biceps close to the ears.\n\n 2.In this pose, the objective is to stretch the whole body up from the heels to the tips of the fingers.\n\n 3.To get maximum benefits, you may pull the pelvis forward and ensure reaching up with your fingers rather than going backwards.
+"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

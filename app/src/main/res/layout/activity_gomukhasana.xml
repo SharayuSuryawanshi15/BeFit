@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gomukhasana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.gomukhasana">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/gomukhasana"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="300dp"
+                android:text="1.	Sit erect on the ground with your legs stretched out in front of you.
+\n\n2.	Now gently bend your left leg, and place it under your right buttock.
+\n\n3.	Fold your right leg and place it over your left thigh.
+\n\n4.	Place both your knees close together as they are stacked one on top of the other.
+\n\n5.	Gently fold your left arm and place it behind your back.
+\n\n6.	Take your right arm over your right shoulder, and stretch it as much as you can until it reaches your left hand. With practice, you will be able to not just reach, but also catch your left hand.
+\n\n7.	Keep the trunk erect, expand your chest, and lean slightly back.
+\n\n8.	Hold this pose for as long as you are comfortable, as you breathe slowly and deeply. Concentrate on your breathing.
+"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

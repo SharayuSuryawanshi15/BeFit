@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_stressrelief"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.befit.stressrelief"
+    android:background="@drawable/wallp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/deepbreathing"
+                android:scaleType="fitXY"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="Deep Breathing:-\n
+
+1.Sit comfortably with your back straight. Put one hand on your chest and the
+other on your stomach.
+\n\n2.Breathe in through your nose. The hand on your stomach should rise. The
+hand on your chest should move very little.
+\n\n3.Exhale through your mouth, pushing out as much air as you can while
+contracting your abdominal muscles. The hand on your stomach should move
+in as you exhale, but your other hand should move very little.
+\n\n4.Continue to breathe in through your nose and out through your mouth. Try to
+inhale enough so that your lower abdomen rises and falls. Count slowly as
+you exhale."/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/mindfulnessmeditation"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:text="Mindfulness Meditation:-\n1. Sit on a straight-backed chair or cross-legged on the floor.
+\n\n2. Focus on an aspect of your breathing, such as the sensation of air flowing into
+your nostrils and out of your mouth, or your belly rising and falling.
+\n\n3. Once you've narrowed your concentration in this way, begin to widen your
+focus. Become aware of sounds, sensations, and thoughts.
+\n\n4. Embrace and consider each thought or sensation without judging it good or
+bad. If your mind starts to race, return your focus to your breathing. Then
+expand your awareness again." />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:src="@drawable/visualization"
+                    android:scaleType="fitXY"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:text="Visualization:-\n1.Close your eyes and imagine your restful place.\n\n2.Picture it as vividly as you
+can—everything you can see, hear, smell, taste, and feel.\n\n3.Just “looking” at it like you
+would a photograph is not enough.\n\n4. Visualization works best if you incorporate as
+many sensory details as possible.
+For example, if you are thinking about a dock on a quiet lake:
+\n* See the sun setting over the water
+\n* Hear the birds singing
+\n* Smell the pine trees
+\n* Feel the cool water on your bare feet
+\n* Taste the fresh, clean air"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

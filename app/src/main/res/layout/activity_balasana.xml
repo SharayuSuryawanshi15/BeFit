@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_balasana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.balasana">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#e71616"
+                android:text="!!!!Avoid Balasana if you have any knee pain or severe lower back injury. Also those with high blood pressure should avoid this pose.!!!!"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/balasana"
+                android:layout_marginTop="60dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:layout_marginTop="350dp"
+                android:text="1.Start with the kneeling position. Keep the feet and toes together.\n\n2.
+Now, spread your knees slightly apart. Inhale slowly and deeply.\n\n3.
+Slowly bend forward and let your chest rest between the thighs. Exhale as you are bending down.\n\n4. Let your hands be in front of you and resting on the floor, palms facing the mat.
+Adjust your pelvis and sacrum in such a way that your abdomen rests between the inner thighs and the back is stretched forward.
+\n\n5.The forehead should rest on the floor and palms facing downwards, fully touching the mat.\n\n6. The arms should be in line with the knees and fully stretched out and relaxed. If you have difficulty resting the forehead on the floor, you may use a pillow for support.
+\n\n7.Breathe normally in this position and feel the deep relaxation. Remain in this position for as long as you are comfortable.
+\n\n8.To release the pose, move your hands back and slowly raise yourself up to the kneeling position.\n\n10. To rest further, one can lie in the supine position (Shavasana) to relax the legs and lower back if required."/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

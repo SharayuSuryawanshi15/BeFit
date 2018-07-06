@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_vajarasana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.vajarasana">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="270dp"
+                android:src="@drawable/vajarasana" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="295dp"
+                android:text="1.Kneel down, stretching your lower legs backward and keeping them together. Your big toes should cross each other.\n\n
+2.	Gently lower your body such that your buttocks are resting on your heels and your thighs on your calf muscles.\n\n
+3.	Place your hands on your knees, and set your gaze forward with your head absolutely straight.\n\n
+4.	Turn your attention to your breathing. Be fully aware of how you breathe and carefully observe as you inhale and exhale.\n\n
+5.	You could close your eyes to concentrate on your breathing and to calm your mind.\n\n
+6.	Try to stay in this position for a minimum of 5 to 10 minutes.
+"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

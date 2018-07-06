@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pose8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.pose8">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/su8"
+                android:scaleType="fitXY"
+                android:id="@+id/p8"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Click on above image for next"
+                android:textAlignment="center"
+                android:layout_marginTop="280dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="310dp"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="1.Straighten the bend leg and take it backwards. \n\n2.Exhale during this process. Let the right and left foot be together.
+\n\n3.Raise the buttocks up. Let the two arms be on the floor and support the body weight.\n\n4. Lower the head to be between the two arms. The body makes the shape of a triangle when observed from the sides. It looks like a mountain and hence the name"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

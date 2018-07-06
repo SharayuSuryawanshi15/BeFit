@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pose3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.pose3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:src="@drawable/s3"
+        android:scaleType="fitXY"
+        android:id="@+id/p3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/next3"
+                android:textAlignment="center"
+                android:layout_marginTop="280dp"
+                android:text="Click on image for next"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="310dp"
+                android:text="1.Breathing out, bend forward from the waist, keeping the spine erect.\n\n2. As you exhale completely, bring the hands down to the floor, beside the feet.
+"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

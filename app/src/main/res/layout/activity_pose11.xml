@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pose11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.befit.pose11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/s11"
+                android:scaleType="fitXY"
+                android:id="@+id/p11"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Click on above image for next"
+                android:layout_marginTop="280dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="310dp"
+                android:text="1.Stand erect and raise both the hands above the head.
+\n\n2.Let there be shoulders length between the two arms.
+\n\n3.Bend the trunk and head backwards to create a slight curve.
+\n\n4.Raising the arms and bending the trunk backwards is done at the same time.\n\n5. Breathe in deeply while raising the arms."/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

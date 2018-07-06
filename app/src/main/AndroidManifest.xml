@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.befit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Second" />
+        <activity android:name=".General" />
+        <activity android:name=".MonthPlan" />
+        <activity android:name=".FitnessSoln" />
+        <activity android:name=".SuryaNamaskar" />
+        <activity android:name=".hu" />
+        <activity android:name=".pose3" />
+        <activity android:name=".pose4" />
+        <activity android:name=".pose5" />
+        <activity android:name=".pose6" />
+        <activity android:name=".pose7" />
+        <activity android:name=".pose8" />
+        <activity android:name=".pose9" />
+        <activity android:name=".pose10" />
+        <activity android:name=".pose11" />
+        <activity android:name=".pose12" />
+        <activity android:name=".daily_1" />
+        <activity android:name=".balasana" />
+        <activity android:name=".chakrasana" />
+        <activity android:name=".dhanurasana" />
+        <activity android:name=".gomukhasana" />
+        <activity android:name=".matsyasana" />
+        <activity android:name=".paschimottanasana" />
+        <activity android:name=".shalabhasana" />
+        <activity android:name=".sirsasana" />
+        <activity android:name=".trikonasana" />
+        <activity android:name=".vajarasana" />
+        <activity android:name=".Real_Plan" />
+        <activity android:name=".advanceplan" />
+        <activity android:name=".basicexinfo" />
+        <activity android:name=".advanceexinfo" />
+        <activity android:name=".bodyproblems" />
+        <activity android:name=".kneepain" />
+        <activity android:name=".backpain" />
+        <activity android:name=".shoulderpain" />
+        <activity android:name=".armpain" />
+        <activity android:name=".stressrelief"></activity>
+    </application>
+
+</manifest>
